@@ -1,0 +1,92 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e4]:
+    - generic [ref=f4e6]:
+      - link [ref=f4e8] [cursor=pointer]:
+        - /url: https://www.kapruka.com
+        - img "logo area" [ref=f4e9]
+      - generic [ref=f4e13]:
+        - textbox "SEARCH PRODUCTS.." [ref=f4e14]
+        - button "online search" [ref=f4e15] [cursor=pointer]:
+          - img "Search" [ref=f4e16]
+      - generic [ref=f4e17]:
+        - combobox "Select Currency" [ref=f4e18]:
+          - option "INR" [selected]
+          - option "USD"
+        - combobox "Select language" [ref=f4e19]:
+          - option "Lang"
+          - option "සිං"
+          - option "Eng" [selected]
+        - link [ref=f4e22] [cursor=pointer]:
+          - /url: /shops/checkout/deliveryCartViewPage.jsp
+        - link "Check Order Status" [ref=f4e30] [cursor=pointer]:
+          - /url: https://www.kapruka.com/contactUs/orderStatus.jsp
+          - img "status" [ref=f4e31]
+        - link "Login to Your Account" [ref=f4e33] [cursor=pointer]:
+          - /url: https://www.kapruka.com/shops/customerAccounts/accountLogin.jsp
+    - list [ref=f4e38]:
+      - listitem [ref=f4e39]:
+        - generic: All Categories
+      - listitem [ref=f4e42]:
+        - link "Ask Aloka, Kapruka's personal shopping assistant" [ref=f4e43] [cursor=pointer]:
+          - /url: https://www.kapruka.com/aloka/?src=menu
+          - generic [ref=f4e46]: Ask Aloka
+          - generic [ref=f4e47]: NEW
+      - listitem [ref=f4e48]:
+        - link "Event Icon Halloween Offers" [ref=f4e49] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/halloween
+          - img "Event Icon" [ref=f4e51]
+          - generic [ref=f4e52]: Halloween Offers
+      - listitem [ref=f4e53]:
+        - link "Same Day Rush delivery" [ref=f4e54] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/samedaydelivery
+          - img "Same Day" [ref=f4e56]
+          - generic [ref=f4e57]: Rush delivery
+      - listitem [ref=f4e58]:
+        - link "On Sale" [ref=f4e59] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/promotions
+      - listitem [ref=f4e62]:
+        - link "Events" [ref=f4e63] [cursor=pointer]:
+          - /url: https://www.kapruka.com/shops/events_home.jsp
+      - listitem [ref=f4e66]:
+        - link "Brands" [ref=f4e67] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online_brands.jsp
+      - listitem [ref=f4e70]:
+        - link "For You" [ref=f4e71] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/combogifts
+  - generic [ref=f4e79]:
+    - list [ref=f4e80]:
+      - listitem [ref=f4e81]:
+        - link "Home" [ref=f4e82] [cursor=pointer]:
+          - /url: https://www.kapruka.com
+      - listitem [ref=f4e83]:
+        - generic [ref=f4e84]: / Customer Account Login
+    - heading "Password Reset Request" [level=1] [ref=f4e86]
+    - generic [ref=f4e89]:
+      - paragraph [ref=f4e90]:
+        - generic [ref=f4e91]: Sorry, we did not find an account matching to that e-mail address.
+        - text: Try again or
+        - link "contact us" [ref=f4e92] [cursor=pointer]:
+          - /url: https://www.kapruka.com/contactUs/onlineHelpForm.jsp
+        - text: .
+      - generic [ref=f4e93]:
+        - generic [ref=f4e94]: E-mail address
+        - textbox [active] [ref=f4e95]
+      - link "Submit" [ref=f4e97] [cursor=pointer]:
+        - /url: javascript:document.form1.submit();
+  - contentinfo [ref=f4e98]:
+    - generic [ref=f4e100]:
+      - paragraph [ref=f4e102]:
+        - text: Kapruka.com -
+        - link "Sri Lanka's" [ref=f4e103] [cursor=pointer]:
+          - /url: https://www.kapruka.com/contactUs/about.html
+        - text: Largest Online Shop
+      - navigation [ref=f4e104]:
+        - generic [ref=f4e105]:
+          - link "About Kapruka" [ref=f4e106] [cursor=pointer]:
+            - /url: https://www.kapruka.com/contactUs/about.html
+          - text: "|"
+          - link "Contact Us" [ref=f4e107] [cursor=pointer]:
+            - /url: https://www.kapruka.com/contactUs/onlineHelpForm.jsp
+          - text: "|"
+          - link "Order Tracking" [ref=f4e108] [cursor=pointer]:
+            - /url: https://www.kapruka.com/contactUs/orderStatus.jsp

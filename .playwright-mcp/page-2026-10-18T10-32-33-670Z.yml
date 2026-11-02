@@ -1,0 +1,87 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e4]:
+    - generic [ref=f3e6]:
+      - link [ref=f3e8] [cursor=pointer]:
+        - /url: https://www.kapruka.com
+        - img "logo area" [ref=f3e9]
+      - generic [ref=f3e13]:
+        - textbox "SEARCH PRODUCTS.." [ref=f3e14]
+        - button "online search" [ref=f3e15] [cursor=pointer]:
+          - img "Search" [ref=f3e16]
+      - generic [ref=f3e17]:
+        - combobox "Select Currency" [ref=f3e18]:
+          - option "INR" [selected]
+          - option "USD"
+        - combobox "Select language" [ref=f3e19]:
+          - option "Lang"
+          - option "සිං"
+          - option "Eng" [selected]
+        - link [ref=f3e22] [cursor=pointer]:
+          - /url: /shops/checkout/deliveryCartViewPage.jsp
+        - link "Check Order Status" [ref=f3e30] [cursor=pointer]:
+          - /url: https://www.kapruka.com/contactUs/orderStatus.jsp
+          - img "status" [ref=f3e31]
+        - link "Login to Your Account" [ref=f3e33] [cursor=pointer]:
+          - /url: https://www.kapruka.com/shops/customerAccounts/accountLogin.jsp
+    - list [ref=f3e38]:
+      - listitem [ref=f3e39]:
+        - generic: All Categories
+      - listitem [ref=f3e42]:
+        - link "Ask Aloka, Kapruka's personal shopping assistant" [ref=f3e43] [cursor=pointer]:
+          - /url: https://www.kapruka.com/aloka/?src=menu
+          - generic [ref=f3e46]: Ask Aloka
+          - generic [ref=f3e47]: NEW
+      - listitem [ref=f3e48]:
+        - link "Event Icon Halloween Offers" [ref=f3e49] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/halloween
+          - img "Event Icon" [ref=f3e51]
+          - generic [ref=f3e52]: Halloween Offers
+      - listitem [ref=f3e53]:
+        - link "Same Day Rush delivery" [ref=f3e54] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/samedaydelivery
+          - img "Same Day" [ref=f3e56]
+          - generic [ref=f3e57]: Rush delivery
+      - listitem [ref=f3e58]:
+        - link "On Sale" [ref=f3e59] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/promotions
+      - listitem [ref=f3e62]:
+        - link "Events" [ref=f3e63] [cursor=pointer]:
+          - /url: https://www.kapruka.com/shops/events_home.jsp
+      - listitem [ref=f3e66]:
+        - link "Brands" [ref=f3e67] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online_brands.jsp
+      - listitem [ref=f3e70]:
+        - link "For You" [ref=f3e71] [cursor=pointer]:
+          - /url: https://www.kapruka.com/online/combogifts
+  - generic [ref=f3e79]:
+    - list [ref=f3e80]:
+      - listitem [ref=f3e81]:
+        - link "Home" [ref=f3e82] [cursor=pointer]:
+          - /url: https://www.kapruka.com
+      - listitem [ref=f3e83]:
+        - generic [ref=f3e84]: / Customer Account Login
+    - heading "Password Reset Request" [level=1] [ref=f3e86]
+    - generic [ref=f3e89]:
+      - paragraph [ref=f3e90]: Please enter the email address you used to create your account, and we will send you a link to reset your password.
+      - generic [ref=f3e91]:
+        - generic [ref=f3e92]: E-mail address
+        - textbox [active] [ref=f3e93]
+      - link "Submit" [ref=f3e95] [cursor=pointer]:
+        - /url: javascript:document.form1.submit();
+  - contentinfo [ref=f3e96]:
+    - generic [ref=f3e98]:
+      - paragraph [ref=f3e100]:
+        - text: Kapruka.com -
+        - link "Sri Lanka's" [ref=f3e101] [cursor=pointer]:
+          - /url: https://www.kapruka.com/contactUs/about.html
+        - text: Largest Online Shop
+      - navigation [ref=f3e102]:
+        - generic [ref=f3e103]:
+          - link "About Kapruka" [ref=f3e104] [cursor=pointer]:
+            - /url: https://www.kapruka.com/contactUs/about.html
+          - text: "|"
+          - link "Contact Us" [ref=f3e105] [cursor=pointer]:
+            - /url: https://www.kapruka.com/contactUs/onlineHelpForm.jsp
+          - text: "|"
+          - link "Order Tracking" [ref=f3e106] [cursor=pointer]:
+            - /url: https://www.kapruka.com/contactUs/orderStatus.jsp

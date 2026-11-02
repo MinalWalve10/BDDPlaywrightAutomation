@@ -1,0 +1,24 @@
+{
+  "name": "qa-ai-agents-demo",
+  "version": "1.0.0",
+  "description": "Three demo AI agents for a QA/testing webinar: API test generation, test data generation, and bug root-cause analysis",
+  "type": "commonjs",
+  "scripts": {
+    "test-gen": "ts-node src/apiTestGenerationAgent.ts",
+    "data-gen": "ts-node src/testDataGenerationAgent.ts",
+    "bug-analysis": "ts-node src/bugAnalysisAgent.ts",
+    "test-gen:local": "ts-node src/apiTestGenerationAgent.ollama.ts",
+    "data-gen:local": "ts-node src/testDataGenerationAgent.ollama.ts",
+    "bug-analysis:local": "ts-node src/bugAnalysisAgent.ollama.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^20.19.43",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
